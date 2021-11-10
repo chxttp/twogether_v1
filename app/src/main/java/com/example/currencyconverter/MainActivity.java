@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Log.i("chat:","hello github");
     }
 
     public void convertFunction(View view){
@@ -28,7 +29,9 @@ public class MainActivity extends AppCompatActivity {
         String moneyDollarText = String.valueOf(moneyDollar); // decimal point vary on its value (this line is better)
 //        String moneyDollarText = String.format("%.2f", moneyDollar); // 2 decimal points or can require any decimal points
 
-        Toast.makeText(this, "£" + moneyPoundText + " is $" + moneyDollarText, Toast.LENGTH_SHORT).show(); // ***need to show old value
+        Toast.makeText(this, "£" + moneyPoundText + " is $" + moneyDollarText, Toast.LENGTH_SHORT).show();
+        // ***need to show old value
+
 
 
 
@@ -36,4 +39,5 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-}
+}//kuy nt
+///jhjhjj
